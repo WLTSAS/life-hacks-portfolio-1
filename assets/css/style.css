@@ -74,21 +74,59 @@ h1, h2 {
 /* everyday hacks */
 
 #everydays-hacks {
-    height:600px;
-}
-
-#right-part {
-    padding-top: 40px;
-    width: 50%;
-    float: right;
-    clear: both;
-    background-color: blue;
+    height: 1000px;
 }
 
 #left-part {
-    padding-top: 40px;
+    padding-top: 30px;
     width: 50%;
     float: left;
     clear: both;
-    background-color: purple;
+}
+
+#subimage-left {
+    background: url('../css/images/louis-hansel-s9Yc_FqP2q0-unsplash\ \(1\).jpg') no-repeat center;
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+#right-part {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    clear: both;
+}
+
+#subimage-right {
+    background: url('../css/images/ferenc-almasi-2bXo_nmccSU-unsplash\ \(1\).jpg') no-repeat center;
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+.left-part-heading {
+    width: 100%;
+    float: left;
+    line-height: 44px;
+    margin-bottom: 70px;
+}
+
+.right-part-heading {
+    width: 100%;
+    float: right;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+#everyday-h {
+   text-align: center;
+   margin: 50px 0;
+   font-size: 280%; 
+}
+
+/* section */
+
+.testing {
+    clear: both;
 }
