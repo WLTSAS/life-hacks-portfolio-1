@@ -57,3 +57,10 @@ h1, h2 {
 .active {
     border-bottom: 4px solid #B22222;
 }
+
+/* main image */ 
+
+#main-image {
+    background: url('../css/images/peter-conlan-LEgwEaBVGMo-unsplash\ \(1\).jpg') center 70% / cover no-repeat; ;
+    height: 70vh
+}
