@@ -9,8 +9,23 @@
 body {
     font-family: 'Overpass', sans-serif;
     font-weight: 300;
+    color: black;
 }
 
-.font-style {
+
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #3a3a3a;
+}
+
+.logo {
     font-family: 'Permanent Marker', cursive;
+    color: red;
+    font-size: 300%;
+    float: left;
 }
