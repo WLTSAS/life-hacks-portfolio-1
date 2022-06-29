@@ -60,7 +60,14 @@ h1, h2 {
 
 /* main image */ 
 
-#main-image {
-    background: url('../css/images/peter-conlan-LEgwEaBVGMo-unsplash\ \(1\).jpg') center 70% / cover no-repeat; ;
-    height: 70vh
+#main-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
 }
+
+#main-image {
+    background: url('../css/images/peter-conlan-LEgwEaBVGMo-unsplash\ \(1\).jpg') center 10% / cover no-repeat; ;
+    height: 50vh
+}
+
